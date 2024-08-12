@@ -1,0 +1,140 @@
+/* Umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #000000;
+}
+
+h1, h2, h3 {
+  color: #0c0d0e;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Header */
+header {
+  background-color: #105b0d;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo-container {
+  flex-shrink: 0;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Background Image */
+.background-image {
+  background-image: url('d:\Haji\New folder\background.jpg'); /* Sesuaikan dengan lokasi gambar */
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px;
+  color: #010101;
+  text-align: center;
+}
+
+.background-image p {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+/* Layanan Kami */
+#services {
+  padding: 40px 20px;
+  background-color: #105b0d;
+  color: #000000;
+  text-align: center;
+}
+
+.service {
+  border: 2px solid #ddd; /* Batas kotak dengan warna abu-abu terang */
+  border-radius: 8px;     /* Sudut kotak yang membulat */
+  padding: 16px;          /* Jarak antara batas dan konten di dalam kotak */
+  margin: 20px 0;         /* Jarak antara kotak layanan */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan ringan untuk efek kedalaman */
+  background-color: #fff; /* Warna latar belakang putih */
+  text-align: left;       /* Rata kiri teks dalam kotak layanan */
+}
+
+.service h3 {
+  margin-top: 0; /* Menghapus margin atas dari judul layanan */
+}
+
+.service-image {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 1px; /* Membulatkan sudut gambar */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Kontak Kami */
+#contact {
+  padding: 40px 20px;
+  background-color: #767614;
+  text-align: center;
+}
+
+.social-links {
+  margin: 20px 0;
+}
+
+.social-icon {
+  margin: 0 10px;
+  color: #105b0d;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #0056b3;
+}
